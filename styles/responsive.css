@@ -1,0 +1,153 @@
+/* For Mobile */
+@media screen and (max-width: 576px) {
+    nav, .banner, main, footer{
+        padding: 0 15px;
+    }
+    /* Navbar */
+    nav{
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+    }
+    .nav-title{
+        text-align: center;
+    }
+    .nav-links{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .nav-links a{
+        margin-left: 0;
+    }
+    /* Feature section */
+    .features{
+        flex-direction: column;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .feature-img, .feature-info{
+        width: 100%;
+    }
+    .feature-img{
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 24px;
+    }
+    .feature-info{
+        margin: 50px 15px;
+    }
+    /* Feature lists section */
+    .feature-lists{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .feature-lists-info, .feature-lists-img{
+        width: 100%;
+    }
+    .floating-btn{
+        bottom: -50px;
+        left: -14px;
+    }
+    /* Fact section */
+    .fact-list{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 60px 0 150px;
+        gap: 30px
+    }
+    .facts-description{
+        padding-right: 50px;
+    }
+    /* Projects section */
+    .projects-collection{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    /* Sponsor section */
+    .sponsors-icon{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+    /* Footer */
+    footer{
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+}
+/* Optional for only me */
+/* For Tablet */
+@media screen and (max-width: 992px) and (min-width: 577px) {
+    nav, .banner, main, footer{
+        padding: 0 30px;
+    }
+    /* Feature section */
+    .features{
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    /* Feature lists section */
+    .feature-lists{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .feature-lists-info, .feature-lists-img{
+        width: 100%;
+    }
+    .floating-btn{
+        left: -28px;
+    }
+    /* Fact section */
+    .fact-list{
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .facts-description{
+        padding-right: 250px;
+    }
+    /* Sponsor section */
+    .sponsors-icon{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+    /* Projects section */
+    .projects-collection{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    /* Footer */
+    footer{
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+}
+/* For Laptop */
+@media screen and (max-width: 1439px) and (min-width: 993px) {
+    .fact-list{
+        margin: 100px 30px 180px;
+    }
+    /* nav, .banner, main, footer{
+        max-width: 1440px;
+        padding: 0 50px;
+    } */
+    /* .features{
+        margin-right: 20px;
+        margin-left: 20px;
+    } */
+    /* .fact-list{
+        margin-right: 0;
+        margin-left: 0;
+    } */
+    /* .fact{ 
+        max-width: 242px;
+        max-width: 242px;
+        padding: 20px;
+    } */
+    /* footer{
+        margin-right: 50px;
+        margin-left: 50px;
+    } */
+}
