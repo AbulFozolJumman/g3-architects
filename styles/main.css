@@ -70,6 +70,7 @@ nav{
     outline: none;
     border-radius: 8px;
     padding: 20px 25px;
+    cursor: pointer;
 }
 .banner img{
     width: 100%;
@@ -167,6 +168,7 @@ nav{
     position: absolute;
     bottom: -50px;
     left: -50px;
+    cursor: pointer;
 }
 #floating-btn-title{
     font-size: 45px;
