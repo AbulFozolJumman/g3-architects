@@ -9,6 +9,9 @@ nav, .banner, main, footer{
     max-width: 1440px;
     margin: auto;
 }
+nav, .banner, main{
+    padding: 0 30px;
+}
 p{
     color: #727272;
 }
@@ -18,7 +21,7 @@ h1, h2, h3{
 /* Header start */
 header{
     background: rgba(255, 144, 14, 0.1);
-    padding: 50px 0;
+    padding: 30px 0;
 }
 /* Navbar start */
 nav{
@@ -79,7 +82,7 @@ nav{
 .features{
     display: flex;
     align-items: center;
-    margin: 85px 61px 0;
+    margin: 100px 61px 0;
 }
 .feature-img, .feature-info{
     width: 50%;
@@ -116,7 +119,7 @@ nav{
     display: flex;
     align-items: center;
     gap: 146px;
-    margin: 130px 0;
+    margin: 100px 0;
 }
 .feature-lists-info, .feature-lists-img{
     width: 50%;
@@ -187,7 +190,7 @@ nav{
     display: flex;
     gap: 30px;
     justify-content: space-between;
-    margin: 100px 50px 180px;
+    margin: 50px 50px 100px;
 }
 .fact{
     width: 242px;
@@ -199,10 +202,10 @@ nav{
     border: 1px solid #FF900E;
     border-radius: 8px;
     padding: 0;
-    transition: transform 2s, background-color 2s, box-shadow 2s;
+    transition: transform 1s ease-in, background-color 1s ease-in, box-shadow 1s ease;
 }
 .fact:hover{
-    background-color: rgb(178, 252, 255);
+    background-color: rgb(254 226 226);
     transform: scale(1.2);
     box-shadow: 0px 4px 30px rgb(172, 172, 172);
 }
@@ -256,22 +259,24 @@ nav{
     margin-bottom: 24px;
 }
 .sponsors-icon{
-    margin: 50px 0 130px;
+    margin: 50px 0 100px;
     display: flex;
     justify-content: space-between;
 }
 /* Sponsors section end */
 /* Main end */
 /* footer start */
-footer{
-    margin-bottom: 216px;
+/* Copyright Section start */
+.copyright-section{
     background: #FFF4E7;
     border-radius: 8px;
+    margin: 0 30px;
 }
-.footer-description{
+.copyright-description{
     font-size: 20px;
     text-align: center;
     color: #424242;
     padding: 40px 0;
 }
+/* Copyright Section end */
 /* footer end */
