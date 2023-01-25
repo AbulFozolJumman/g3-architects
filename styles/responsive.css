@@ -1,6 +1,10 @@
 /* For Mobile */
 @media screen and (max-width: 576px) {
-    nav, .banner, main, footer{
+    /* Header start */
+    header{
+        padding-bottom: 15px;
+    }
+    nav, .banner, main{
         padding: 0 15px;
     }
     /* Navbar */
@@ -46,8 +50,15 @@
         width: 100%;
     }
     .floating-btn{
-        bottom: -50px;
-        left: -14px;
+        padding: 20px;
+        bottom: -15px;
+        left: -15px;
+    }
+    #floating-btn-title{
+        font-size: 30px;
+    }
+    #floating-btn-description{
+        font-size: 16px;
     }
     /* Fact section */
     .fact-list{
@@ -72,17 +83,12 @@
         gap: 50px;
     }
     /* Footer */
-    footer{
-        margin-right: 15px;
-        margin-left: 15px;
+    .copyright-section{
+        margin: 0 15px;
     }
 }
-/* Optional for only me */
 /* For Tablet */
 @media screen and (max-width: 992px) and (min-width: 577px) {
-    nav, .banner, main, footer{
-        padding: 0 30px;
-    }
     /* Feature section */
     .features{
         margin-right: 20px;
@@ -97,12 +103,15 @@
         width: 100%;
     }
     .floating-btn{
-        left: -28px;
+        left: -30px;
+        bottom: -20px;
     }
     /* Fact section */
     .fact-list{
         margin-right: 0;
         margin-left: 0;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     .facts-description{
         padding-right: 250px;
@@ -118,36 +127,4 @@
     .projects-collection{
         grid-template-columns: repeat(2, 1fr);
     }
-    /* Footer */
-    footer{
-        margin-right: 30px;
-        margin-left: 30px;
-    }
-}
-/* For Laptop */
-@media screen and (max-width: 1439px) and (min-width: 993px) {
-    .fact-list{
-        margin: 100px 30px 180px;
-    }
-    /* nav, .banner, main, footer{
-        max-width: 1440px;
-        padding: 0 50px;
-    } */
-    /* .features{
-        margin-right: 20px;
-        margin-left: 20px;
-    } */
-    /* .fact-list{
-        margin-right: 0;
-        margin-left: 0;
-    } */
-    /* .fact{ 
-        max-width: 242px;
-        max-width: 242px;
-        padding: 20px;
-    } */
-    /* footer{
-        margin-right: 50px;
-        margin-left: 50px;
-    } */
 }
